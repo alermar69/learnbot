@@ -18,14 +18,14 @@ def greet_user(bot, update):
 
 def talk_to_me(bot, update):
     user_text = "Привет {}! Ты написал: {}".format(update.message.chat.first_name, update.message.text)
-    logging.info("User: %s, Chat id: %s, Message: %s", update.message.chat.user_name, update.message.chat.id,
+    logging.info("User: %s, Chat id: %s, Message: %s", update.message.chat.username, update.message.chat.id,
                 update.message.text)
     print(update.message)
     update.message.reply_text(user_text)
 
 def main():
     #mybot = Updater(API_KEY, request_kwargs=PROXY) #конкретный бот, который будет ломиться на платформу
-    mybot = Updater(API_KEY) #конкретный бот, который будет ломиться на платформу
+    mybot = Updater(settings.API_KEY) #конкретный бот, который будет ломиться на платформу
     
     dp = mybot.dispatcher
     dp.add_handler(CommandHandler('start', greet_user)) 
