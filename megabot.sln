@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "megabot", "megabot\megabot.pyproj", "{278CB10F-5EE7-4EAE-AD86-22AD31677E37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{278CB10F-5EE7-4EAE-AD86-22AD31677E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278CB10F-5EE7-4EAE-AD86-22AD31677E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E846732-F262-45D5-BA9D-9B1C85065DE9}
+	EndGlobalSection
+EndGlobal
