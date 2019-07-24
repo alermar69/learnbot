@@ -38,6 +38,19 @@
       <Architecture>X64</Architecture>
     </Interpreter>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bot.log" />
+    <Content Include="images\cat1.jpg" />
+    <Content Include="images\cat2.jpg" />
+    <Content Include="images\cat3.jpg" />
+    <Content Include="images\cat4.jpg" />
+    <Content Include="images\cat5.jpg" />
+    <Content Include="images\cat6.jpg" />
+    <Content Include="images\cat7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
