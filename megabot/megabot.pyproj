@@ -23,7 +23,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="bot.py" />
+    <Compile Include="handlers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="settings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utils.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -47,6 +53,10 @@
     <Content Include="images\cat5.jpg" />
     <Content Include="images\cat6.jpg" />
     <Content Include="images\cat7.jpg" />
+    <Content Include="README.rst">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
